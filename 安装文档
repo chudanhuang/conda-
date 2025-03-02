@@ -1,0 +1,25 @@
+1.指定位置安装虚拟环境：
+  Windows系统中：
+  在anaconda prompt中键入"conda create --prefix your_path\env_name python = version"
+  其中，your_path指的是你要存放虚拟环境的路径，这个最好记一下，env_name指的是你要创建的虚拟环境名称，英文的,version是你要安装的python版本
+  Linux/macOS系统中：
+  在Terminal中键入"conda create --prefix yout_path/env_name python = version"
+  变量含义与Windows相同，只是正反斜杠的区别
+2.激活虚拟环境：
+  Windows系统中：
+  在anaconda prompt中键入"conda activate env_name"，如果不是安装在默认路径下这个方式有可能打不开，这时候就键入"conda activate  your_path\env_name"
+  Linux和macOS是在Terminal中键入，指令内容一样，斜杠方向更换一下就行
+3.安装依赖：
+  在终端里键入"conda install 包名称"就行，喜欢用pip可以键入"pip install 包名称" ，如果装不了就先"conda install pip"之后再用pip命令装
+4.退出环境：
+  我一般是直接关终端，如果还要用的话可以键入："conda deactivate"
+5.删除环境：
+  Windows系统中:
+  在终端中键入："conda remove your_path\env_name --all"
+  Linux和macOS系统中：
+  在终端中键入内容和Windows一样，斜杠换方向
+6.查看我的环境安装路径：
+  在终端中键入："conda env list"，即可查看所有的环境及其路径
+注：为了方便描述，Windows系统的anaconda prompt和Linux\macOS系统的Terminal我统称为终端了
+
+
