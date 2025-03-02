@@ -18,7 +18,7 @@
   在终端中键入："conda remove your_path\env_name --all"
   Linux和macOS系统中：
   在终端中键入内容和Windows一样，斜杠换方向
-6.查看我的环境安装路径：
+6.查看环境安装路径：
   在终端中键入："conda env list"，即可查看所有的环境及其路径
 注：为了方便描述，Windows系统的anaconda prompt和Linux\macOS系统的Terminal我统称为终端了
 另外还要注意在目标目录下有创建文件的权限，可以以管理员方式启动终端
