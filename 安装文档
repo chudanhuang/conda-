@@ -1,9 +1,9 @@
 1.指定位置安装虚拟环境：
   Windows系统中：
-  在anaconda prompt中键入"conda create --prefix your_path\env_name python = version"
+  在anaconda prompt中键入"conda create --prefix your_path\env_name python=version"
   其中，your_path指的是你要存放虚拟环境的路径，这个最好记一下，env_name指的是你要创建的虚拟环境名称，英文的,version是你要安装的python版本
   Linux/macOS系统中：
-  在Terminal中键入"conda create --prefix yout_path/env_name python = version"
+  在Terminal中键入"conda create --prefix yout_path/env_name python=version"
   变量含义与Windows相同，只是正反斜杠的区别
 2.激活虚拟环境：
   Windows系统中：
